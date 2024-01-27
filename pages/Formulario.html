@@ -1,3 +1,12 @@
+<!-- 
+<form action="/database" method="post">
+    
+    <label for="nombre">Nombre: </label>
+    <input type="text">
+    <input type="button" value="Enviar Datos">
+</form>
+    -->
+<!-- ----------------------------------------------------------------------------------------------- -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,12 +26,49 @@
     </header>
     <h1>Formulario:</h1>
     <main>
-        <form action="">
-            <label for="Nombre:">Nombre</label>
-            <input type="text">
-            <label for="Apellido:">Apellido</label>
-            <input type="text">
+        <form action="" method="post">
+            <label for="nombre:">Nombre: </label><br><!-- orientacion de datos sobre que debe ingresar el usuario -->
+            <input type="text" id="nombre" name="nombre" required><br><br><!-- Es la forma en la que puede interactuar el usuario -->
+                                                <!-- "text es el tipo de dato permitido" -->
+            <label for="apellido">Apellido: </label><br>
+            <input type="text" id="apellido" name="apellido" autofocus><br><br>
+
+            <label for="dni">DNI: </label><br>
+            <input type="number" id="dni" name="dni" maxlength="8" required><br><br>
+
+            <label for="contraseña">Contraseña: </label><br>
+            <input type="password" id="password" name="password" minlength="8" placeholder="minimo 8 caracteres" required> <br><br>
+
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com"><br><br>
+
+            <input type="submit" value="Enviar Datos"> <!-- "Submit" envia los datos -->
+           
+            <button type="submit">
+                Enviar datos con Button
+            </button><br><br>
+
         </form>
+        <br>
+        <div>
+            <button>
+                <a href="../index.html#piedepagina">Ruta a Index</a>
+            </button>
+        </div>
+        <br>
+        <div>
+            <button>
+                <a href="https://www.youtube.com" target="_blank">Ruta a youtube</a>
+            </button>
+        </div>
     </main>
+    <br><br>
+    <footer>
+        <br><br>
+        
+        <a href="../pages/Terror.html">
+            <img src="https://fifpro.org/media/fhmfhvkx/messi-world-cup.jpg?rxy=0.48356841796117644,0.31512414378031967&width=1000&height=640&rnd=133210253587130000" alt="Milei y Messi">
+        </a>
+    </footer>
 </body>
 </html>
