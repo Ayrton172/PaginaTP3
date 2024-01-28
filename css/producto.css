@@ -1,0 +1,52 @@
+/* Reseteo de css */
+*{
+    margin: 5;
+    padding: 35;
+}
+body{
+    background-color: #FAF2EB;
+}
+main{
+    padding: 50px;
+}
+.footerr{
+    color: white;
+}
+.maina{
+    border: solid 2px rgb(0, 145, 255);
+    width: 700px;
+    padding: 35px;
+    margin: 40px;
+    text-align: center;
+    /* float: left; */
+}
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.portada{
+    color: aliceblue;
+    background-color: #4B8CAF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    padding: 15px;
+    margin-top: 15px;
+    background: rgb(0, 145, 255);
+    color: white;
+}
+button:hover{
+    background: white;
+    color: rgb(0, 145, 255);
+}
+button a{
+    text-decoration: none;
+}
+button a:hover{
+    color: black;
+}
+.titulo{
+    text-align: center;
+}

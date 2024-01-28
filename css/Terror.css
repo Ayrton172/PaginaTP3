@@ -1,0 +1,29 @@
+/* 1. Seleccionamos el selector: de tag */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: white;
+    background-color: rgb(160, 31, 31);
+}
+h2{
+    color: red;
+}
+/* 2. Seleccion por clases */
+.linkprincipal{
+    color: red;
+    background-color: rgb(247, 247, 247);
+    padding: 15px;
+    font-style: italic;
+    font-size: 20px;
+}
+/* Seleccion por id */
+
+#titulo3{
+    color: rgb(20, 20, 189);
+}
+
+.gif1{
+    color: rgb(0, 123, 255);
+    font-style:inherit;
+}
